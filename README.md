@@ -53,8 +53,8 @@ Once the Raspberry Pi OS is set up, follow these steps to install the necessary 
     sudo systemctl stop dnsmasq
     sudo systemctl stop hostapd
     ```
-### Set up Node.js and npm Dependency
-Before the internet connection is established, it's necessary to install Node.js and npm.
+### Set up Node.js and npm Dependency (server-side)
+Before the Offline connection is established and we disconnect from the Internet, it's necessary to install Node.js and npm.
 
 1. Install Node.js by following the instructions provided [here](https://www.golinuxcloud.com/install-nodejs-and-npm-on-raspberry-pi/):
     ```bash
